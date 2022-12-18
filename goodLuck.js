@@ -4,6 +4,7 @@
     // divisible by both 3 & 5 = Good luck
     // not divisible by both = input
     // not divisible by number = put number
+
     function Goodluck(input){
         if((input % 3 === 0) && (input % 5 === 0))
         return 'Good luck';
@@ -24,4 +25,5 @@
     // const output = Good luck(15);
     const output = Goodluck( prompt('type anmber, if you get \'Good luck\' you own: '));
     document.getElementById("good").innerHTML= output;
+// play and ...
     
