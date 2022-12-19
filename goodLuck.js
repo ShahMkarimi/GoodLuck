@@ -25,5 +25,5 @@
     // const output = Good luck(15);
     const output = Goodluck( prompt('type anmber, if you get \'Good luck\' you own: '));
     document.getElementById("good").innerHTML= output;
-// play and ...
+
     
