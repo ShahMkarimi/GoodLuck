@@ -4,7 +4,7 @@
     // divisible by both 3 & 5 = Good luck
     // not divisible by both = input
     // not divisible by number = put number
-    //  only javascript    
+      
 
     function Goodluck(input){
         if((input % 3 === 0) && (input % 5 === 0))
