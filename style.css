@@ -1,0 +1,28 @@
+*{
+ background: lightblue;
+
+}
+
+.large-dev {
+    padding-top: 20px;
+    position: relative;
+    margin-left: 30%;
+    background: lightgreen;
+    border: 1px green sold;
+    width: 500px;
+    height: 300px;
+    padding-inline: 15px;
+}
+
+.h1{
+    margin-top: 20px;
+    background: #00A300;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.h1:hover {
+    background:#007500;
+    cursor: pointer;
+
+}
