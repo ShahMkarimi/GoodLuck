@@ -9,13 +9,13 @@
 
     function Goodluck(input){
         if((input % 3 === 0) && (input % 5 === 0))
-        return 'Good luck';
+        return ' the resulte is: Good luck';
 
        if(input % 3=== 0)
-        return 'Good';
+        return ' the resulte is: Good';
 
        if(input % 5=== 0)
-        return 'luck';
+        return ' the resulte is: luck';
 
        if(typeof input  !== 'number')
        return "it is not the correct,input";
@@ -28,4 +28,5 @@
     const output = Goodluck( prompt('type anmber, if you get \'Good luck\' you own: '));
     document.getElementById("good").innerHTML= output;
 
+      
     
